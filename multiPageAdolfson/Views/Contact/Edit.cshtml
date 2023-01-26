@@ -1,0 +1,41 @@
+﻿@using multiPageAdolfson.Models;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Contact
+@{
+    string title = ViewBag.Action + " Contact";
+    ViewBag.Title = title;
+}
+
+<h2>@ViewBag.Title</h2>
+
+<form asp-action="Edit" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="phoneNumber">Phone Number</label>
+        <input asp-for="phoneNumber" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="address">Address</label>
+        <input asp-for="address" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="note">Note</label>
+        <textarea asp-for="note" rows="4" cols="50"></textarea>
+    </div>
+
+    <input type="hidden" asp-for="ContactId" />
+
+    <button type="submit" class="btn btn-primary">@ViewBag.Action</button>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Cancel</a>
+
+</form>

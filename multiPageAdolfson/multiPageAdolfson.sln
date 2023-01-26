@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multiPageAdolfson", "multiPageAdolfson.csproj", "{48D616B8-1D0B-4060-81D2-5AF9D718B993}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48D616B8-1D0B-4060-81D2-5AF9D718B993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D616B8-1D0B-4060-81D2-5AF9D718B993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D616B8-1D0B-4060-81D2-5AF9D718B993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D616B8-1D0B-4060-81D2-5AF9D718B993}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D585E17E-AA50-4D3A-A410-4CD9F1A7551B}
+	EndGlobalSection
+EndGlobal
